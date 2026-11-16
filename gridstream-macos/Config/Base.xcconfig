@@ -1,0 +1,8 @@
+// Shared build settings for the macOS server app.
+// Personal values (signing team, bundle identifier prefix) belong in
+// Config/Local.xcconfig, which is git-ignored. Copy Local.xcconfig.example.
+
+GRIDSTREAM_BUNDLE_ID_PREFIX = com.example
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"

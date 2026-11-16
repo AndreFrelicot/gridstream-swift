@@ -1,0 +1,36 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSLocalNetworkUsageDescription": {
+      "comment": "Privacy - Local Network Usage Description",
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "new",
+            "value": "GridStream needs local network access to allow iPad devices to discover and stream videos from this server."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream necesita acceso a la red local para que los iPad puedan encontrar este servidor y reproducir sus vídeos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream a besoin d’accéder au réseau local pour que les iPad puissent trouver ce serveur et lire ses vidéos."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O GridStream precisa de acesso à rede local para que iPads possam encontrar este servidor e reproduzir os vídeos dele."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,88 @@
+name: CI
+
+# Manual only: run it from the Actions tab (Run workflow). No push or pull request triggers.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  web:
+    name: Web (lint, test, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: gridstream-web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: gridstream-web/package-lock.json
+      - name: Pin npm
+        run: npm install --global npm@11.7.0
+      - run: npm ci
+      - run: npm run lint
+      - run: npx tsc -p tsconfig.app.json --noEmit
+      - run: npx ng test --watch=false
+      - run: npm run build
+
+  contract:
+    name: Shared API contract (GridStreamKit)
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode_26*.app | sort -V | tail -1)"
+      - name: Test
+        run: swift test --package-path GridStreamKit
+
+  macos:
+    name: macOS server (build, test)
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: gridstream-web/package-lock.json
+      - name: Pin npm for the embedded web build
+        run: npm install --global npm@11.7.0
+      - name: Select Xcode
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode_26*.app | sort -V | tail -1)"
+      - name: Test
+        run: >
+          xcodebuild test
+          -project gridstream-macos/gridstream-macos.xcodeproj
+          -scheme gridstream-macos
+          -destination 'platform=macOS'
+          -derivedDataPath /tmp/gridstream-ci-macos -IDEBuildLocationStyle=DeriveData
+          -parallel-testing-enabled NO
+          -onlyUsePackageVersionsFromResolvedFile
+          CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" DEVELOPMENT_TEAM=""
+
+  ipad:
+    name: iPad client (build, test)
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode
+        run: sudo xcode-select -s "$(ls -d /Applications/Xcode_26*.app | sort -V | tail -1)"
+      - name: Pick an iPad simulator
+        id: sim
+        run: |
+          name=$(xcrun simctl list devices available | grep -oE 'iPad[^()]*' | head -1 | sed 's/ *$//')
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+      - name: Test
+        run: >
+          xcodebuild test
+          -project gridstream-ipad/gridstream-ipad.xcodeproj
+          -scheme gridstream-ipad
+          -destination "platform=iOS Simulator,name=${{ steps.sim.outputs.name }}"
+          -derivedDataPath /tmp/gridstream-ci-ipad -IDEBuildLocationStyle=DeriveData
+          -parallel-testing-enabled NO
+          CODE_SIGNING_ALLOWED=YES CODE_SIGN_IDENTITY="-" DEVELOPMENT_TEAM=""

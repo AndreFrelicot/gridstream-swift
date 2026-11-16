@@ -1,0 +1,16 @@
+{
+  "simpleLists": [
+    {
+      "id": "1D2C3B4A-5968-4776-8594-A3B2C1D0E9F8",
+      "name": "Shortlist",
+      "videoIds": [
+        "a1b2c3d4e5f60718",
+        "0f1e2d3c4b5a6978"
+      ],
+      "videoCount": 2,
+      "sortOrder": "play_count_desc",
+      "createdAt": "2026-10-05T10:00:00Z",
+      "updatedAt": "2026-10-30T16:20:00Z"
+    }
+  ]
+}

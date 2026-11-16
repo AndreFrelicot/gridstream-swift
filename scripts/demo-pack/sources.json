@@ -1,0 +1,39 @@
+{
+  "films": {
+    "tears-of-steel": {
+      "title": "Tears of Steel",
+      "url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "credit": "Tears of Steel, (CC) Blender Foundation | mango.blender.org",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "sintel": {
+      "title": "Sintel",
+      "url": "https://download.blender.org/durian/movies/Sintel.2010.1080p.mkv",
+      "credit": "Sintel, © copyright Blender Foundation | durian.blender.org",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "elephants-dream": {
+      "title": "Elephants Dream",
+      "url": "https://download.blender.org/ED/ED_1024.avi",
+      "credit": "Elephants Dream, (c) copyright 2006, Blender Foundation / Netherlands Media Art Institute / www.elephantsdream.org",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/"
+    }
+  },
+  "clips": [
+    { "id": "tos-1", "film": "tears-of-steel", "start": 30, "duration": 36 },
+    { "id": "tos-2", "film": "tears-of-steel", "start": 215, "duration": 34 },
+    { "id": "tos-3", "film": "tears-of-steel", "start": 400, "duration": 40 },
+    { "id": "tos-4", "film": "tears-of-steel", "start": 560, "duration": 32 },
+    { "id": "sintel-1", "film": "sintel", "start": 20, "duration": 38 },
+    { "id": "sintel-2", "film": "sintel", "start": 262, "duration": 36 },
+    { "id": "sintel-3", "film": "sintel", "start": 420, "duration": 36 },
+    { "id": "sintel-4", "film": "sintel", "start": 610, "duration": 40 },
+    { "id": "ed-1", "film": "elephants-dream", "start": 45, "duration": 34 },
+    { "id": "ed-2", "film": "elephants-dream", "start": 190, "duration": 38 },
+    { "id": "ed-3", "film": "elephants-dream", "start": 360, "duration": 32 },
+    { "id": "ed-4", "film": "elephants-dream", "start": 105, "duration": 34 }
+  ]
+}

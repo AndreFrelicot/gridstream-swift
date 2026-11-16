@@ -1,0 +1,6337 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "": {
+      "shouldTranslate": false
+    },
+    "%@ sent": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ enviados"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ envoyés"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ enviados"
+          }
+        }
+      }
+    },
+    "%@ sent since the server started.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ enviados desde que se inició el servidor."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ envoyés depuis le démarrage du serveur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ enviados desde que o servidor foi iniciado."
+          }
+        }
+      }
+    },
+    "%@ · %@": {
+      "shouldTranslate": false
+    },
+    "%@ · connected at %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · conectado a las %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · connecté à %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · conectado às %@"
+          }
+        }
+      }
+    },
+    "%@/s": {
+      "shouldTranslate": false
+    },
+    "%lld": {
+      "shouldTranslate": false
+    },
+    "%lld / %lld videos processed": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld vídeos procesados"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld vidéos traitées"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld vídeos processados"
+          }
+        }
+      }
+    },
+    "%lld devices connected": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld device connected"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld devices connected"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo conectado"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivos conectados"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld appareil connecté"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld appareils connectés"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivo conectado"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld dispositivos conectados"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld videos are no longer found on disk": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld video is no longer found on disk"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld videos are no longer found on disk"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo ya no está en el disco"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos ya no están en el disco"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéo est introuvable sur le disque"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéos sont introuvables sur le disque"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo não está mais no disco"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos não estão mais no disco"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld videos are no longer found on disk. Purging permanently deletes their tags, ratings, play statistics, annotations, time ranges, list memberships and frame captures. If a file comes back later it will be added as a new video. This cannot be undone.": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld video is no longer found on disk. Purging permanently deletes its tags, ratings, play statistics, annotations, time ranges, list memberships and frame captures. If the file comes back later it will be added as a new video. This cannot be undone."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld videos are no longer found on disk. Purging permanently deletes their tags, ratings, play statistics, annotations, time ranges, list memberships and frame captures. If a file comes back later it will be added as a new video. This cannot be undone."
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo ya no está en el disco. Al purgarlo se eliminan de forma permanente sus etiquetas, valoraciones, estadísticas de reproducción, anotaciones, intervalos de tiempo, pertenencias a listas y capturas de fotogramas. Si el archivo vuelve más adelante, se añadirá como un vídeo nuevo. Esta acción no se puede deshacer."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos ya no están en el disco. Al purgarlos se eliminan de forma permanente sus etiquetas, valoraciones, estadísticas de reproducción, anotaciones, intervalos de tiempo, pertenencias a listas y capturas de fotogramas. Si un archivo vuelve más adelante, se añadirá como un vídeo nuevo. Esta acción no se puede deshacer."
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéo est introuvable sur le disque. La purger supprime définitivement ses tags, notes, statistiques de lecture, annotations, plages temporelles, appartenances aux listes et captures d’images. Si le fichier revient plus tard, il sera ajouté comme une nouvelle vidéo. Cette action est irréversible."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéos sont introuvables sur le disque. Les purger supprime définitivement leurs tags, notes, statistiques de lecture, annotations, plages temporelles, appartenances aux listes et captures d’images. Si un fichier revient plus tard, il sera ajouté comme une nouvelle vidéo. Cette action est irréversible."
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo não está mais no disco. Limpá-lo apaga permanentemente suas etiquetas, classificações, estatísticas de reprodução, anotações, intervalos de tempo, participações em listas e capturas de quadros. Se o arquivo voltar depois, ele será adicionado como um novo vídeo. Esta ação não pode ser desfeita."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos não estão mais no disco. Limpá-los apaga permanentemente suas etiquetas, classificações, estatísticas de reprodução, anotações, intervalos de tempo, participações em listas e capturas de quadros. Se um arquivo voltar depois, ele será adicionado como um novo vídeo. Esta ação não pode ser desfeita."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld videos in catalog": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld video in catalog"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld videos in catalog"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo en el catálogo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos en el catálogo"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéo dans le catalogue"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéos dans le catalogue"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo no catálogo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos no catálogo"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld videos playing": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld video playing"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld videos playing"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo en reproducción"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos en reproducción"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéo en lecture"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vidéos en lecture"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeo em reprodução"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld vídeos em reprodução"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld/%lld frames": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld fotogramas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld images"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld/%lld quadros"
+          }
+        }
+      }
+    },
+    "1. Add your folders": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Añade tus carpetas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Ajoutez vos dossiers"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1. Adicione suas pastas"
+          }
+        }
+      }
+    },
+    "2. Keep the server running": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Mantén el servidor en ejecución"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Laissez le serveur en marche"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2. Mantenha o servidor em execução"
+          }
+        }
+      }
+    },
+    "3. Connect the iPad": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Conecta el iPad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Connectez l’iPad"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3. Conecte o iPad"
+          }
+        }
+      }
+    },
+    "A folder on a disconnected drive is marked unavailable. Its videos are kept and come back when the drive is connected again and the folder is scanned.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una carpeta en un disco desconectado se marca como no disponible. Sus vídeos se conservan y vuelven cuando se reconecta el disco y se analiza la carpeta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un dossier sur un disque déconnecté est marqué indisponible. Ses vidéos sont conservées et reviennent quand le disque est reconnecté et que le dossier est analysé."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uma pasta em um disco desconectado é marcada como indisponível. Os vídeos dela são mantidos e voltam quando o disco é reconectado e a pasta é analisada."
+          }
+        }
+      }
+    },
+    "A video is missing": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta un vídeo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une vidéo manque"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Um vídeo está faltando"
+          }
+        }
+      }
+    },
+    "Activity": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actividad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activité"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atividade"
+          }
+        }
+      }
+    },
+    "Add Folder": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir carpeta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter le dossier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar pasta"
+          }
+        }
+      }
+    },
+    "Add Folder…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir carpeta…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter un dossier…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar pasta…"
+          }
+        }
+      }
+    },
+    "Add a folder that contains your videos. They stay where they are; nothing is copied.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade una carpeta que contenga tus vídeos. Se quedan donde están; no se copia nada."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoutez un dossier qui contient vos vidéos. Elles restent où elles sont ; rien n’est copié."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicione uma pasta que contenha seus vídeos. Eles ficam onde estão; nada é copiado."
+          }
+        }
+      }
+    },
+    "Address": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dirección"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adresse"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endereço"
+          }
+        }
+      }
+    },
+    "Adds a folder and its subfolders. GridStream serves .mp4, .m4v and .mov files. Adding a folder that is inside, or contains, a folder already in the list is refused.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade una carpeta y sus subcarpetas. GridStream ofrece archivos .mp4, .m4v y .mov. No se puede añadir una carpeta que esté dentro de otra de la lista o que la contenga."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoute un dossier et ses sous-dossiers. GridStream diffuse les fichiers .mp4, .m4v et .mov. Un dossier situé dans un dossier déjà présent dans la liste, ou qui en contient un, est refusé."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adiciona uma pasta e suas subpastas. O GridStream oferece arquivos .mp4, .m4v e .mov. Uma pasta que esteja dentro de outra da lista, ou que contenha uma delas, é recusada."
+          }
+        }
+      }
+    },
+    "All sessions revoked.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se han revocado todas las sesiones."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toutes les sessions ont été révoquées."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todas as sessões foram revogadas."
+          }
+        }
+      }
+    },
+    "Another app may be using the port. Choose another port in Settings > Server.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puede que otra app esté usando el puerto. Elige otro puerto en Ajustes > Servidor."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Une autre app utilise peut-être le port. Choisissez un autre port dans Réglages > Serveur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outro app pode estar usando a porta. Escolha outra porta em Ajustes > Servidor."
+          }
+        }
+      }
+    },
+    "Background Generation": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generación en segundo plano"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Génération en arrière-plan"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geração em segundo plano"
+          }
+        }
+      }
+    },
+    "Background generation": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generación en segundo plano"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Génération en arrière-plan"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geração em segundo plano"
+          }
+        }
+      }
+    },
+    "Browse and manage your library from any browser on your network. The web interface is served on the same port as the API used by the iPad.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explora y gestiona tu biblioteca desde cualquier navegador de tu red. La interfaz web se sirve en el mismo puerto que la API que usa el iPad."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parcourez et gérez votre bibliothèque depuis n’importe quel navigateur de votre réseau. L’interface web est servie sur le même port que l’API utilisée par l’iPad."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegue e gerencie sua biblioteca em qualquer navegador da sua rede. A interface web é servida na mesma porta da API usada pelo iPad."
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
+        }
+      }
+    },
+    "Cannot Add Folder": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se puede añadir la carpeta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible d’ajouter le dossier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não é possível adicionar a pasta"
+          }
+        }
+      }
+    },
+    "Change PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changer le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alterar PIN"
+          }
+        }
+      }
+    },
+    "Change…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alterar…"
+          }
+        }
+      }
+    },
+    "Change… and Reset": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambiar… y Restablecer"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier… et Réinitialiser"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alterar… e Redefinir"
+          }
+        }
+      }
+    },
+    "Check that both are on the same network and that the server is running. On the iPad, GridStream needs Local Network access (Settings > Privacy & Security > Local Network). If the macOS firewall is on, allow incoming connections for GridStream.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comprueba que ambos están en la misma red y que el servidor está en ejecución. En el iPad, GridStream necesita acceso a la red local (Ajustes > Privacidad y seguridad > Red local). Si el firewall de macOS está activado, permite las conexiones entrantes para GridStream."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérifiez que les deux sont sur le même réseau et que le serveur est en marche. Sur l’iPad, GridStream a besoin de l’accès au réseau local (Réglages > Confidentialité et sécurité > Réseau local). Si le coupe-feu de macOS est activé, autorisez les connexions entrantes pour GridStream."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifique se os dois estão na mesma rede e se o servidor está em execução. No iPad, o GridStream precisa de acesso à rede local (Ajustes > Privacidade e Segurança > Rede Local). Se o firewall do macOS estiver ativado, permita conexões de entrada para o GridStream."
+          }
+        }
+      }
+    },
+    "Check that its folder is in the list and turned on, that the file is .mp4, .m4v or .mov, then click Scan for Changes.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comprueba que su carpeta está en la lista y activada, y que el archivo es .mp4, .m4v o .mov; luego haz clic en Buscar cambios."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vérifiez que son dossier figure dans la liste et qu’il est activé, que le fichier est au format .mp4, .m4v ou .mov, puis cliquez sur Rechercher les modifications."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verifique se a pasta dele está na lista e ativada e se o arquivo é .mp4, .m4v ou .mov; depois clique em Buscar alterações."
+          }
+        }
+      }
+    },
+    "Choose another folder for the database, for example on a larger drive. GridStream can move the current database there or start empty. The change takes effect the next time GridStream opens.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige otra carpeta para la base de datos, por ejemplo en un disco más grande. GridStream puede mover allí la base de datos actual o empezar vacía. El cambio se aplica la próxima vez que se abra GridStream."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un autre dossier pour la base de données, par exemple sur un disque plus grand. GridStream peut y déplacer la base actuelle ou repartir de zéro. Le changement prend effet à la prochaine ouverture de GridStream."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha outra pasta para o banco de dados, por exemplo em um disco maior. O GridStream pode mover o banco de dados atual para lá ou começar vazio. A mudança vale na próxima vez que o GridStream for aberto."
+          }
+        }
+      }
+    },
+    "Choosing which videos are served.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir qué vídeos se ofrecen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir les vidéos diffusées."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolher quais vídeos são oferecidos."
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacer"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpar"
+          }
+        }
+      }
+    },
+    "Clear All Data": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar todos los datos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacer toutes les données"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar todos os dados"
+          }
+        }
+      }
+    },
+    "Clear All Data?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Borrar todos los datos?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacer toutes les données ?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar todos os dados?"
+          }
+        }
+      }
+    },
+    "Clear All Data…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar todos los datos…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacer toutes les données…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar todos os dados…"
+          }
+        }
+      }
+    },
+    "Confirm PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmar PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmer le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirmar PIN"
+          }
+        }
+      }
+    },
+    "Connect an iPad or a Browser": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar un iPad o un navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecter un iPad ou un navigateur"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar um iPad ou um navegador"
+          }
+        }
+      }
+    },
+    "Connected": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connecté"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectado"
+          }
+        }
+      }
+    },
+    "Connected Devices": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos conectados"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appareils connectés"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos conectados"
+          }
+        }
+      }
+    },
+    "Connected devices": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos conectados"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appareils connectés"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos conectados"
+          }
+        }
+      }
+    },
+    "Connected devices, what they play and the connection log.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los dispositivos conectados, lo que reproducen y el registro de conexiones."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les appareils connectés, ce qu’ils lisent et le journal des connexions."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os dispositivos conectados, o que reproduzem e o registro de conexões."
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
+          }
+        }
+      }
+    },
+    "Copy Path": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar ruta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copier le chemin"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar caminho"
+          }
+        }
+      }
+    },
+    "Data Directory": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpeta de datos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossier de données"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasta de dados"
+          }
+        }
+      }
+    },
+    "Data directory": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpeta de datos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossier de données"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasta de dados"
+          }
+        }
+      }
+    },
+    "Database Size": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño de la base de datos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Taille de la base"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamanho do banco de dados"
+          }
+        }
+      }
+    },
+    "Days": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Días"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jours"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dias"
+          }
+        }
+      }
+    },
+    "Delete All": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar todo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout supprimer"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar tudo"
+          }
+        }
+      }
+    },
+    "Delete All Scrub Data?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Eliminar los datos de desplazamiento?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer les données de défilement ?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar os dados de navegação?"
+          }
+        }
+      }
+    },
+    "Delete All Scrub Data…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar los datos de desplazamiento…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer les données de défilement…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar os dados de navegação…"
+          }
+        }
+      }
+    },
+    "Deleted %lld cached scrub frames": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Deleted %lld cached scrub frame"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Deleted %lld cached scrub frames"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Se ha eliminado %lld fotograma de desplazamiento"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Se han eliminado %lld fotogramas de desplazamiento"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld image de défilement supprimée"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld images de défilement supprimées"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld quadro de navegação apagado"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld quadros de navegação apagados"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Device": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appareil"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivo"
+          }
+        }
+      }
+    },
+    "Devices": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appareils"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos"
+          }
+        }
+      }
+    },
+    "Devices is the number of connected devices, Playing the videos being streamed right now, Throughput the data the server sends per second, and Videos Served the videos started since the server started.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos es el número de dispositivos conectados, Reproduciendo los vídeos que se transmiten ahora, Velocidad los datos que el servidor envía por segundo y Vídeos servidos los vídeos iniciados desde que se inició el servidor."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appareils indique le nombre d’appareils connectés, En lecture les vidéos diffusées en ce moment, Débit les données envoyées par le serveur chaque seconde, et Vidéos servies les vidéos lancées depuis le démarrage du serveur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dispositivos é o número de dispositivos conectados, Reproduzindo os vídeos transmitidos agora, Velocidade os dados que o servidor envia por segundo e Vídeos servidos os vídeos iniciados desde que o servidor foi iniciado."
+          }
+        }
+      }
+    },
+    "Disabled": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactivé"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desativado"
+          }
+        }
+      }
+    },
+    "Each iPad or browser that has used the server in the last two minutes, with the address it connects from, the data sent to it and its current throughput. The videos it is playing are listed under it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada iPad o navegador que ha usado el servidor en los últimos dos minutos, con la dirección desde la que se conecta, los datos que se le han enviado y su velocidad actual. Los vídeos que reproduce aparecen debajo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chaque iPad ou navigateur qui a utilisé le serveur au cours des deux dernières minutes, avec l’adresse depuis laquelle il se connecte, les données qui lui ont été envoyées et son débit actuel. Les vidéos qu’il lit sont listées en dessous."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada iPad ou navegador que usou o servidor nos últimos dois minutos, com o endereço de onde se conecta, os dados enviados a ele e sua velocidade atual. Os vídeos que ele está reproduzindo aparecem abaixo."
+          }
+        }
+      }
+    },
+    "Empties the GridStream database: videos, tags, ratings, lists, annotations, captures and scrub previews. The video files on disk are not touched. This cannot be undone.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vacía la base de datos de GridStream: vídeos, etiquetas, valoraciones, listas, anotaciones, capturas y vistas previas de desplazamiento. Los archivos de vídeo del disco no se tocan. Esta acción no se puede deshacer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vide la base de données de GridStream : vidéos, tags, notes, listes, annotations, captures et aperçus de défilement. Les fichiers vidéo sur le disque ne sont pas touchés. Cette action est irréversible."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esvazia o banco de dados do GridStream: vídeos, etiquetas, classificações, listas, anotações, capturas e prévias de navegação. Os arquivos de vídeo no disco não são alterados. Esta ação não pode ser desfeita."
+          }
+        }
+      }
+    },
+    "Enter this PIN on the iPad or in the web app. Set your own PIN below to replace it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduce este PIN en el iPad o en la app web. Define tu propio PIN abajo para sustituirlo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisissez ce code PIN sur l’iPad ou dans l’app web. Définissez votre propre code PIN ci-dessous pour le remplacer."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Digite este PIN no iPad ou no app web. Defina seu próprio PIN abaixo para substituí-lo."
+          }
+        }
+      }
+    },
+    "Error: %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error: %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreur : %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erro: %@"
+          }
+        }
+      }
+    },
+    "Folders": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpetas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossiers"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pastas"
+          }
+        }
+      }
+    },
+    "Frees the space used by scrub previews. They are generated again when needed.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libera el espacio que ocupan las vistas previas de desplazamiento. Se vuelven a generar cuando hacen falta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libère l’espace occupé par les aperçus de défilement. Ils sont générés de nouveau si nécessaire."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libera o espaço usado pelas prévias de navegação. Elas são geradas novamente quando necessário."
+          }
+        }
+      }
+    },
+    "Generate scrub previews in the background": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generar las vistas previas de desplazamiento en segundo plano"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Générer les aperçus de défilement en arrière-plan"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gerar as prévias de navegação em segundo plano"
+          }
+        }
+      }
+    },
+    "Generated PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN generado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN généré"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN gerado"
+          }
+        }
+      }
+    },
+    "Getting Started": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primeros pasos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premiers pas"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primeiros passos"
+          }
+        }
+      }
+    },
+    "GridStream Help": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayuda de GridStream"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aide GridStream"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajuda do GridStream"
+          }
+        }
+      }
+    },
+    "GridStream Server": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream Server"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream Server"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream Server"
+          }
+        }
+      }
+    },
+    "GridStream Server catalogs the videos in the folders you choose and streams them to the GridStream iPad app and to browsers on your local network. Nothing is uploaded to the internet and your files are never moved or copied.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream Server cataloga los vídeos de las carpetas que eliges y los transmite a la app GridStream para iPad y a los navegadores de tu red local. No se sube nada a internet y tus archivos nunca se mueven ni se copian."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream Server catalogue les vidéos des dossiers que vous choisissez et les diffuse vers l’app GridStream pour iPad et vers les navigateurs de votre réseau local. Rien n’est envoyé sur Internet et vos fichiers ne sont jamais déplacés ni copiés."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O GridStream Server cataloga os vídeos das pastas que você escolhe e os transmite para o app GridStream para iPad e para navegadores da sua rede local. Nada é enviado para a internet e seus arquivos nunca são movidos nem copiados."
+          }
+        }
+      }
+    },
+    "GridStream Settings": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes de GridStream"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages de GridStream"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes do GridStream"
+          }
+        }
+      }
+    },
+    "GridStream lives in the menu bar as well as in the Dock. Closing the Settings window keeps the server running; choose Quit GridStream to stop it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream está en la barra de menús y también en el Dock. Al cerrar la ventana Ajustes, el servidor sigue en ejecución; elige Salir de GridStream para detenerlo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream se trouve dans la barre des menus ainsi que dans le Dock. Fermer la fenêtre Réglages laisse le serveur en marche ; choisissez Quitter GridStream pour l’arrêter."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O GridStream fica na barra de menus e também no Dock. Fechar a janela Ajustes mantém o servidor em execução; escolha Encerrar o GridStream para pará-lo."
+          }
+        }
+      }
+    },
+    "GridStream serves the .mp4, .m4v and .mov files in these folders and their subfolders. Right-click a folder to show it in Finder.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream ofrece los archivos .mp4, .m4v y .mov de estas carpetas y sus subcarpetas. Haz clic derecho en una carpeta para mostrarla en el Finder."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GridStream diffuse les fichiers .mp4, .m4v et .mov de ces dossiers et de leurs sous-dossiers. Faites un clic droit sur un dossier pour l’afficher dans le Finder."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O GridStream oferece os arquivos .mp4, .m4v e .mov destas pastas e de suas subpastas. Clique com o botão direito em uma pasta para mostrá-la no Finder."
+          }
+        }
+      }
+    },
+    "Help about %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayuda sobre %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aide sur %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajuda sobre %@"
+          }
+        }
+      }
+    },
+    "Hover a folder and click the minus button, or choose Remove… from its right-click menu. This permanently deletes its videos from the GridStream library with their tags, ratings, annotations, lists and captures. The video files themselves are not touched.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasa el puntero por una carpeta y haz clic en el botón menos, o elige Quitar… en su menú del clic derecho. Así se eliminan de forma permanente sus vídeos de la biblioteca de GridStream con sus etiquetas, valoraciones, anotaciones, listas y capturas. Los archivos de vídeo no se tocan."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Survolez un dossier et cliquez sur le bouton moins, ou choisissez Supprimer… dans son menu du clic droit. Ses vidéos sont alors définitivement supprimées de la bibliothèque GridStream avec leurs tags, notes, annotations, listes et captures. Les fichiers vidéo eux-mêmes ne sont pas touchés."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Passe o ponteiro sobre uma pasta e clique no botão de menos, ou escolha Remover… no menu do botão direito. Isso apaga permanentemente os vídeos dela da biblioteca do GridStream com suas etiquetas, classificações, anotações, listas e capturas. Os arquivos de vídeo não são alterados."
+          }
+        }
+      }
+    },
+    "How many days a device stays signed in before it asks for the PIN again. Type a number and press Return.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuántos días permanece la sesión abierta en un dispositivo antes de volver a pedir el PIN. Escribe un número y pulsa Retorno."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le nombre de jours pendant lesquels un appareil reste connecté avant de redemander le code PIN. Saisissez un nombre et appuyez sur Retour."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quantos dias um dispositivo fica conectado antes de pedir o PIN novamente. Digite um número e pressione Return."
+          }
+        }
+      }
+    },
+    "Idle": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactivo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactif"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ocioso"
+          }
+        }
+      }
+    },
+    "In the menu bar": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En la barra de menús"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dans la barre des menus"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na barra de menus"
+          }
+        }
+      }
+    },
+    "Last scanned %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Último análisis %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dernière analyse %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última análise %@"
+          }
+        }
+      }
+    },
+    "Location": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ubicación"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emplacement"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Local"
+          }
+        }
+      }
+    },
+    "Log": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registro"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Journal"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Registro"
+          }
+        }
+      }
+    },
+    "Looks for videos that were added, changed or deleted since the last scan. GridStream also scans when it starts.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Busca los vídeos que se han añadido, cambiado o eliminado desde el último análisis. GridStream también analiza al iniciarse."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche les vidéos ajoutées, modifiées ou supprimées depuis la dernière analyse. GridStream lance aussi une analyse à son ouverture."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procura vídeos adicionados, alterados ou apagados desde a última análise. O GridStream também faz uma análise ao ser aberto."
+          }
+        }
+      }
+    },
+    "Menu Bar Menu": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú de la barra de menús"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menu de la barre des menus"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menu da barra de menus"
+          }
+        }
+      }
+    },
+    "Menu bar": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barra de menús"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barre des menus"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barra de menus"
+          }
+        }
+      }
+    },
+    "Missing Videos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos que faltan"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vidéos manquantes"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos ausentes"
+          }
+        }
+      }
+    },
+    "Missing videos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos que faltan"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vidéos manquantes"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos ausentes"
+          }
+        }
+      }
+    },
+    "Move Database": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover base de datos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacer la base"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover banco de dados"
+          }
+        }
+      }
+    },
+    "Move the Database?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Mover la base de datos?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplacer la base de données ?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mover o banco de dados?"
+          }
+        }
+      }
+    },
+    "Network": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Red"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réseau"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rede"
+          }
+        }
+      }
+    },
+    "No device connected": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ningún dispositivo conectado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun appareil connecté"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum dispositivo conectado"
+          }
+        }
+      }
+    },
+    "No device is connected. Devices appear here when they use the server.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay ningún dispositivo conectado. Los dispositivos aparecen aquí cuando usan el servidor."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun appareil n’est connecté. Les appareils apparaissent ici lorsqu’ils utilisent le serveur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum dispositivo conectado. Os dispositivos aparecem aqui quando usam o servidor."
+          }
+        }
+      }
+    },
+    "No longer active, %@ sent": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactivo, %@ enviados en total"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inactif, %@ envoyés au total"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inativo, %@ enviados no total"
+          }
+        }
+      }
+    },
+    "No source folders yet": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay carpetas de origen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucun dossier source pour l’instant"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma pasta de origem ainda"
+          }
+        }
+      }
+    },
+    "No videos in library": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay vídeos en la biblioteca"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune vidéo dans la bibliothèque"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum vídeo na biblioteca"
+          }
+        }
+      }
+    },
+    "Not yet scanned": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no analizada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas encore analysé"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ainda não analisada"
+          }
+        }
+      }
+    },
+    "Nothing logged yet.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay nada en el registro."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le journal est vide pour l’instant."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ainda não há nada no registro."
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Off": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactivé"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desativado"
+          }
+        }
+      }
+    },
+    "Off — anyone on your network can connect": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado: cualquiera en tu red puede conectarse"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactivé — n’importe qui sur votre réseau peut se connecter"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desativado — qualquer pessoa na sua rede pode se conectar"
+          }
+        }
+      }
+    },
+    "On": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activé"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativado"
+          }
+        }
+      }
+    },
+    "On first launch GridStream creates a 6-digit PIN. Setting your own PIN replaces it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En el primer inicio, GridStream crea un PIN de 6 dígitos. Definir tu propio PIN lo sustituye."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Au premier lancement, GridStream crée un code PIN à 6 chiffres. Définir votre propre code PIN le remplace."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na primeira abertura, o GridStream cria um PIN de 6 dígitos. Definir seu próprio PIN o substitui."
+          }
+        }
+      }
+    },
+    "On the iPad, GridStream finds this Mac automatically on the local network. Enter the PIN when asked.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En el iPad, GridStream encuentra este Mac automáticamente en la red local. Introduce el PIN cuando se te pida."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sur l’iPad, GridStream trouve ce Mac automatiquement sur le réseau local. Saisissez le code PIN lorsqu’il vous est demandé."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No iPad, o GridStream encontra este Mac automaticamente na rede local. Digite o PIN quando for solicitado."
+          }
+        }
+      }
+    },
+    "On the next launch GridStream can move its database (videos, tags, ratings, annotations, lists and captures) to %@. If that folder already contains a GridStream database, it is used as is and nothing is moved. \"Start Empty\" leaves the current database where it is.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En el próximo inicio, GridStream puede mover su base de datos (vídeos, etiquetas, valoraciones, anotaciones, listas y capturas) a %@. Si esa carpeta ya contiene una base de datos de GridStream, se usa tal cual y no se mueve nada. “Empezar vacía” deja la base de datos actual donde está."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Au prochain lancement, GridStream peut déplacer sa base de données (vidéos, tags, notes, annotations, listes et captures) vers %@. Si ce dossier contient déjà une base GridStream, elle est utilisée telle quelle et rien n’est déplacé. « Repartir de zéro » laisse la base actuelle où elle est."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na próxima abertura, o GridStream pode mover o banco de dados (vídeos, etiquetas, classificações, anotações, listas e capturas) para %@. Se essa pasta já contiver um banco de dados do GridStream, ele será usado como está e nada será movido. “Começar vazio” deixa o banco de dados atual onde está."
+          }
+        }
+      }
+    },
+    "Open GridStream on an iPad connected to the same network. It finds this Mac automatically. If a PIN is required, enter the one shown in Settings > Server.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre GridStream en un iPad conectado a la misma red. Encuentra este Mac automáticamente. Si se requiere un PIN, introduce el que aparece en Ajustes > Servidor."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez GridStream sur un iPad connecté au même réseau. Il trouve ce Mac automatiquement. Si un code PIN est demandé, saisissez celui affiché dans Réglages > Serveur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abra o GridStream em um iPad conectado à mesma rede. Ele encontra este Mac automaticamente. Se um PIN for exigido, digite o que aparece em Ajustes > Servidor."
+          }
+        }
+      }
+    },
+    "Open Settings > Folders and click Add Folder… to choose a folder that contains videos. GridStream scans it and its subfolders.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Ajustes > Carpetas y haz clic en Añadir carpeta… para elegir una carpeta que contenga vídeos. GridStream la analiza junto con sus subcarpetas."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez Réglages > Dossiers et cliquez sur Ajouter un dossier… pour choisir un dossier qui contient des vidéos. GridStream l’analyse, ainsi que ses sous-dossiers."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abra Ajustes > Pastas e clique em Adicionar pasta… para escolher uma pasta que contenha vídeos. O GridStream analisa a pasta e suas subpastas."
+          }
+        }
+      }
+    },
+    "Open Web Interface": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir la interfaz web"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir l’interface web"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir a interface web"
+          }
+        }
+      }
+    },
+    "Open in Browser": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir en el navegador"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir dans le navigateur"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir no navegador"
+          }
+        }
+      }
+    },
+    "Opens the web interface on this Mac. On another computer, type the address shown in this pane.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre la interfaz web en este Mac. En otro ordenador, escribe la dirección que aparece en este panel."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre l’interface web sur ce Mac. Sur un autre ordinateur, saisissez l’adresse affichée dans ce panneau."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre a interface web neste Mac. Em outro computador, digite o endereço mostrado neste painel."
+          }
+        }
+      }
+    },
+    "PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN"
+          }
+        }
+      }
+    },
+    "PIN %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN %@"
+          }
+        }
+      }
+    },
+    "PIN Protection": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protección con PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protection par code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteção por PIN"
+          }
+        }
+      }
+    },
+    "PIN confirmation does not match.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La confirmación no coincide con el PIN."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La confirmation ne correspond pas au code PIN."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A confirmação não corresponde ao PIN."
+          }
+        }
+      }
+    },
+    "PIN must contain 6 to 12 digits.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El PIN debe tener entre 6 y 12 dígitos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le code PIN doit comporter de 6 à 12 chiffres."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O PIN deve ter de 6 a 12 dígitos."
+          }
+        }
+      }
+    },
+    "PIN must contain digits only.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El PIN solo puede contener dígitos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le code PIN ne doit contenir que des chiffres."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O PIN deve conter apenas dígitos."
+          }
+        }
+      }
+    },
+    "PIN protection is off. Anyone on your network can browse, stream and change your library.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La protección con PIN está desactivada. Cualquiera en tu red puede explorar, reproducir y cambiar tu biblioteca."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La protection par code PIN est désactivée. N’importe qui sur votre réseau peut parcourir, lire et modifier votre bibliothèque."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A proteção por PIN está desativada. Qualquer pessoa na sua rede pode navegar, reproduzir e alterar sua biblioteca."
+          }
+        }
+      }
+    },
+    "PIN protection off": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protección con PIN desactivada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protection par code PIN désactivée"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proteção por PIN desativada"
+          }
+        }
+      }
+    },
+    "PIN saved. Existing sessions were revoked.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN guardado. Se han revocado las sesiones existentes."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN enregistré. Les sessions existantes ont été révoquées."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN salvo. As sessões existentes foram revogadas."
+          }
+        }
+      }
+    },
+    "Paused (client connected)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pausa (cliente conectado)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pause (client connecté)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausado (cliente conectado)"
+          }
+        }
+      }
+    },
+    "Permanently delete videos that are no longer found on disk": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar de forma permanente los vídeos que ya no están en el disco"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer définitivement les vidéos introuvables sur le disque"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar permanentemente os vídeos que não estão mais no disco"
+          }
+        }
+      }
+    },
+    "Playing": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproduciendo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En lecture"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproduzindo"
+          }
+        }
+      }
+    },
+    "Playing “%@”": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproduciendo “%@”"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lecture de « %@ »"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reproduzindo “%@”"
+          }
+        }
+      }
+    },
+    "Port": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puerto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Port"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Porta"
+          }
+        }
+      }
+    },
+    "Port must be between 1024 and 65535": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El puerto debe estar entre 1024 y 65535"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le port doit être compris entre 1024 et 65535"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A porta deve estar entre 1024 e 65535"
+          }
+        }
+      }
+    },
+    "Prepares scrub previews ahead of time while no iPad or browser is connected. Workers sets how many videos are processed at once; more workers finish sooner but use more of the Mac.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prepara las vistas previas de desplazamiento con antelación mientras no hay ningún iPad ni navegador conectado. Procesos define cuántos vídeos se procesan a la vez; más procesos terminan antes, pero usan más el Mac."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prépare les aperçus de défilement à l’avance tant qu’aucun iPad ni navigateur n’est connecté. Tâches règle le nombre de vidéos traitées en même temps ; plus de tâches finissent plus vite mais sollicitent davantage le Mac."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prepara as prévias de navegação com antecedência enquanto nenhum iPad ou navegador está conectado. Processos define quantos vídeos são processados ao mesmo tempo; mais processos terminam antes, mas usam mais o Mac."
+          }
+        }
+      }
+    },
+    "Press Return to save the duration.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsa Retorno para guardar la duración."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur Retour pour enregistrer la durée."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressione Return para salvar a duração."
+          }
+        }
+      }
+    },
+    "Press Return to save. Use a port between 1024 and 65535.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsa Retorno para guardar. Usa un puerto entre 1024 y 65535."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuyez sur Retour pour enregistrer. Utilisez un port compris entre 1024 et 65535."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pressione Return para salvar. Use uma porta entre 1024 e 65535."
+          }
+        }
+      }
+    },
+    "Previews are generated again when needed.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las vistas previas se vuelven a generar cuando hacen falta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les aperçus sont générés de nouveau si nécessaire."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As prévias são geradas novamente quando necessário."
+          }
+        }
+      }
+    },
+    "Purge %lld Videos": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Purge %lld Video"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Purge %lld Videos"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Purgar %lld vídeo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Purgar %lld vídeos"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Purger %lld vidéo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Purger %lld vidéos"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Limpar %lld vídeo"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Limpar %lld vídeos"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Purge Missing Videos?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Purgar los vídeos que faltan?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purger les vidéos manquantes ?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpar os vídeos ausentes?"
+          }
+        }
+      }
+    },
+    "Purge…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purgar…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purger…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Limpar…"
+          }
+        }
+      }
+    },
+    "Quick controls from the menu bar.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controles rápidos desde la barra de menús."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les commandes rapides de la barre des menus."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Controles rápidos na barra de menus."
+          }
+        }
+      }
+    },
+    "Quit GridStream": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salir de GridStream"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter GridStream"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encerrar o GridStream"
+          }
+        }
+      }
+    },
+    "Reads every video again and regenerates its thumbnail. Slower; use it if thumbnails or durations look wrong.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuelve a leer cada vídeo y regenera su miniatura. Es más lento; úsalo si las miniaturas o las duraciones parecen incorrectas."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relit chaque vidéo et régénère sa vignette. Plus lent ; utilisez-le si des vignettes ou des durées semblent fausses."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lê cada vídeo novamente e gera a miniatura de novo. É mais lento; use se miniaturas ou durações parecerem erradas."
+          }
+        }
+      }
+    },
+    "Refresh statistics": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar estadísticas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualiser les statistiques"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atualizar estatísticas"
+          }
+        }
+      }
+    },
+    "Remove Source Folder?": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Quitar la carpeta de origen?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le dossier source ?"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover a pasta de origem?"
+          }
+        }
+      }
+    },
+    "Remove and Delete Data": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar y eliminar datos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le dossier et ses données"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover e apagar dados"
+          }
+        }
+      }
+    },
+    "Remove folder": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar carpeta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le dossier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover pasta"
+          }
+        }
+      }
+    },
+    "Remove…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover…"
+          }
+        }
+      }
+    },
+    "Removing a folder": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitar una carpeta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer un dossier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover uma pasta"
+          }
+        }
+      }
+    },
+    "Removing “%@” permanently deletes all of its videos from the GridStream library, together with their tags, ratings, play statistics, annotations, time ranges, list memberships and frame captures. The video files on disk are not touched. To keep this data, turn the folder off instead.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Al quitar “%@” se eliminan de forma permanente todos sus vídeos de la biblioteca de GridStream, junto con sus etiquetas, valoraciones, estadísticas de reproducción, anotaciones, intervalos de tiempo, pertenencias a listas y capturas de fotogramas. Los archivos de vídeo del disco no se tocan. Para conservar estos datos, desactiva la carpeta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer « %@ » efface définitivement toutes ses vidéos de la bibliothèque GridStream, avec leurs tags, notes, statistiques de lecture, annotations, plages temporelles, appartenances aux listes et captures d’images. Les fichiers vidéo sur le disque ne sont pas touchés. Pour conserver ces données, désactivez plutôt le dossier."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remover “%@” apaga permanentemente todos os vídeos dela da biblioteca do GridStream, com suas etiquetas, classificações, estatísticas de reprodução, anotações, intervalos de tempo, participações em listas e capturas de quadros. Os arquivos de vídeo no disco não são alterados. Para manter esses dados, desative a pasta."
+          }
+        }
+      }
+    },
+    "Require a PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Requerir un PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exiger un code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exigir um PIN"
+          }
+        }
+      }
+    },
+    "Rescan All Videos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver a analizar todos los vídeos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réanalyser toutes les vidéos"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analisar todos os vídeos novamente"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redefinir"
+          }
+        }
+      }
+    },
+    "Restart the app for the new data directory to take effect.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicia la app para que se aplique la nueva carpeta de datos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redémarrez l’app pour utiliser le nouveau dossier de données."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reinicie o app para usar a nova pasta de dados."
+          }
+        }
+      }
+    },
+    "Revoke All Sessions": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revocar todas las sesiones"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Révoquer toutes les sessions"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Revogar todas as sessões"
+          }
+        }
+      }
+    },
+    "Right-click a folder to Show in Finder, Copy Path, turn it on or off, or remove it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haz clic derecho en una carpeta para elegir Mostrar en el Finder o Copiar ruta, activarla o desactivarla, o quitarla."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Faites un clic droit sur un dossier pour choisir Afficher dans le Finder, Copier le chemin, l’activer ou le désactiver, ou le supprimer."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clique com o botão direito em uma pasta para escolher Mostrar no Finder ou Copiar caminho, ativá-la ou desativá-la, ou removê-la."
+          }
+        }
+      }
+    },
+    "Right-click menu": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menú del clic derecho"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menu du clic droit"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menu do botão direito"
+          }
+        }
+      }
+    },
+    "Running": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En ejecución"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En marche"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Em execução"
+          }
+        }
+      }
+    },
+    "Runs only while no iPad or browser is connected.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo se ejecuta cuando no hay ningún iPad ni navegador conectado."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ne s’exécute que lorsqu’aucun iPad ni navigateur n’est connecté."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "É executada somente quando nenhum iPad ou navegador está conectado."
+          }
+        }
+      }
+    },
+    "Same as Scan for Changes in Settings.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Igual que Buscar cambios en Ajustes."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identique à Rechercher les modifications dans les Réglages."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O mesmo que Buscar alterações em Ajustes."
+          }
+        }
+      }
+    },
+    "Save PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salvar PIN"
+          }
+        }
+      }
+    },
+    "Scan for Changes": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar cambios"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher les modifications"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar alterações"
+          }
+        }
+      }
+    },
+    "Scan for New Videos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar vídeos nuevos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher de nouvelles vidéos"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar novos vídeos"
+          }
+        }
+      }
+    },
+    "Scanning for changes...": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando cambios…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche des modifications…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando alterações…"
+          }
+        }
+      }
+    },
+    "Scanning for changes... %lld/%lld": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando cambios… %lld/%lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recherche des modifications… %lld/%lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando alterações… %lld/%lld"
+          }
+        }
+      }
+    },
+    "Scanning…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizando…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analisando…"
+          }
+        }
+      }
+    },
+    "Scanning… %lld/%lld": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analizando… %lld/%lld"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse… %lld/%lld"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analisando… %lld/%lld"
+          }
+        }
+      }
+    },
+    "Scrub Frames": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotogramas de desplazamiento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Images de défilement"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quadros de navegação"
+          }
+        }
+      }
+    },
+    "Scrub Previews": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vistas previas de desplazamiento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aperçus de défilement"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prévias de navegação"
+          }
+        }
+      }
+    },
+    "Scrub previews": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vistas previas de desplazamiento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aperçus de défilement"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prévias de navegação"
+          }
+        }
+      }
+    },
+    "Scrub previews are the small frames the iPad shows while you drag along a video's timeline.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las vistas previas de desplazamiento son los fotogramas pequeños que el iPad muestra mientras arrastras por la línea de tiempo de un vídeo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les aperçus de défilement sont les petites images que l’iPad affiche quand vous faites glisser le doigt le long de la barre de lecture d’une vidéo."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As prévias de navegação são os pequenos quadros que o iPad mostra enquanto você arrasta pela linha do tempo de um vídeo."
+          }
+        }
+      }
+    },
+    "Search Help": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar en la ayuda"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rechercher dans l’aide"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar na ajuda"
+          }
+        }
+      }
+    },
+    "Security": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seguridad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sécurité"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Segurança"
+          }
+        }
+      }
+    },
+    "Select": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seleccionar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecionar"
+          }
+        }
+      }
+    },
+    "Select a Topic": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige un tema"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un sujet"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolha um tópico"
+          }
+        }
+      }
+    },
+    "Select a directory for GridStream data (database and scrub files)": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecciona una carpeta para los datos de GridStream (base de datos y vistas previas de desplazamiento)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un dossier pour les données de GridStream (base de données et aperçus de défilement)"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecione uma pasta para os dados do GridStream (banco de dados e prévias de navegação)"
+          }
+        }
+      }
+    },
+    "Select a folder containing video files": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecciona una carpeta que contenga archivos de vídeo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez un dossier contenant des fichiers vidéo"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selecione uma pasta que contenha arquivos de vídeo"
+          }
+        }
+      }
+    },
+    "Serve the videos on this Mac to your iPad.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ofrece los vídeos de este Mac a tu iPad."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diffusez les vidéos de ce Mac sur votre iPad."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ofereça os vídeos deste Mac ao seu iPad."
+          }
+        }
+      }
+    },
+    "Serve the web interface": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ofrecer la interfaz web"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proposer l’interface web"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oferecer a interface web"
+          }
+        }
+      }
+    },
+    "Server": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serveur"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor"
+          }
+        }
+      }
+    },
+    "Server Running on Port %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor en ejecución en el puerto %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serveur en marche sur le port %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor em execução na porta %@"
+          }
+        }
+      }
+    },
+    "Server Stopped": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor detenido"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serveur arrêté"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor parado"
+          }
+        }
+      }
+    },
+    "Server started on port %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor iniciado en el puerto %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serveur démarré sur le port %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor iniciado na porta %@"
+          }
+        }
+      }
+    },
+    "Server stopped": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor detenido"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serveur arrêté"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servidor parado"
+          }
+        }
+      }
+    },
+    "Session TTL must be a positive number of days.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La duración de la sesión debe ser un número de días positivo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La durée de session doit être un nombre de jours positif."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A duração da sessão deve ser um número positivo de dias."
+          }
+        }
+      }
+    },
+    "Session duration updated.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duración de la sesión actualizada."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durée de session mise à jour."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duração da sessão atualizada."
+          }
+        }
+      }
+    },
+    "Sessions": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesiones"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessions"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessões"
+          }
+        }
+      }
+    },
+    "Set PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definir PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Définir le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definir PIN"
+          }
+        }
+      }
+    },
+    "Set a 6 to 12 digit PIN before enabling protection.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Define un PIN de 6 a 12 dígitos antes de activar la protección."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Définissez un code PIN de 6 à 12 chiffres avant d’activer la protection."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Defina um PIN de 6 a 12 dígitos antes de ativar a proteção."
+          }
+        }
+      }
+    },
+    "Set or change the PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definir o cambiar el PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Définir ou changer le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Definir ou alterar o PIN"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes…"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en el Finder"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher dans le Finder"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar no Finder"
+          }
+        }
+      }
+    },
+    "Shown while the server is running with the web interface on.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aparece mientras el servidor está en ejecución con la interfaz web activada."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Affiché lorsque le serveur est en marche et que l’interface web est activée."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aparece enquanto o servidor está em execução com a interface web ativada."
+          }
+        }
+      }
+    },
+    "Sign out every iPad and browser": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar la sesión en todos los iPad y navegadores"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déconnecter tous les iPad et navigateurs"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desconectar todos os iPads e navegadores"
+          }
+        }
+      }
+    },
+    "Sign-ins, wrong PINs, connections and the videos each device plays, newest first. The log keeps the last 500 entries and is cleared when GridStream quits. Copy puts it on the clipboard and Clear empties it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los inicios de sesión, los PIN incorrectos, las conexiones y los vídeos que reproduce cada dispositivo, los más recientes primero. El registro conserva las últimas 500 entradas y se borra al salir de GridStream. Copiar lo pone en el portapapeles y Borrar lo vacía."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les ouvertures de session, les codes PIN erronés, les connexions et les vidéos lues par chaque appareil, les plus récents en premier. Le journal garde les 500 dernières entrées et est vidé à la fermeture de GridStream. Copier le place dans le presse-papiers et Effacer le vide."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inícios de sessão, PINs incorretos, conexões e os vídeos que cada dispositivo reproduz, os mais recentes primeiro. O registro guarda as últimas 500 entradas e é apagado ao encerrar o GridStream. Copiar o coloca na área de transferência e Limpar o esvazia."
+          }
+        }
+      }
+    },
+    "Signed in": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión iniciada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session ouverte"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessão iniciada"
+          }
+        }
+      }
+    },
+    "Signed out": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión cerrada"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session fermée"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sessão encerrada"
+          }
+        }
+      }
+    },
+    "Signing in": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicio de sesión"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connexion"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Início de sessão"
+          }
+        }
+      }
+    },
+    "Signs out every iPad and browser at once, for example after lending a device.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cierra la sesión en todos los iPad y navegadores a la vez, por ejemplo después de prestar un dispositivo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déconnecte tous les iPad et navigateurs d’un coup, par exemple après avoir prêté un appareil."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desconecta todos os iPads e navegadores de uma vez, por exemplo depois de emprestar um dispositivo."
+          }
+        }
+      }
+    },
+    "Small frames the iPad shows while you drag along a video's timeline. They are made the first time they are needed and kept in the database.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotogramas pequeños que el iPad muestra mientras arrastras por la línea de tiempo de un vídeo. Se crean la primera vez que hacen falta y se guardan en la base de datos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les petites images que l’iPad affiche quand vous faites glisser le doigt le long de la barre de lecture d’une vidéo. Elles sont créées la première fois qu’elles sont nécessaires et conservées dans la base de données."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pequenos quadros que o iPad mostra enquanto você arrasta pela linha do tempo de um vídeo. Eles são criados na primeira vez que são necessários e guardados no banco de dados."
+          }
+        }
+      }
+    },
+    "Source Folders": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpetas de origen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossiers sources"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pastas de origem"
+          }
+        }
+      }
+    },
+    "Start Empty": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empezar vacía"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Repartir de zéro"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Começar vazio"
+          }
+        }
+      }
+    },
+    "Start Server": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar servidor"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer le serveur"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar servidor"
+          }
+        }
+      }
+    },
+    "Start Server and Stop Server control streaming. While the server is stopped, iPads and browsers cannot connect. It cannot be started or stopped during a scan.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar servidor y Detener servidor controlan la transmisión. Mientras el servidor está detenido, los iPad y los navegadores no pueden conectarse. No se puede iniciar ni detener durante un análisis."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer le serveur et Arrêter le serveur contrôlent la diffusion. Tant que le serveur est arrêté, les iPad et les navigateurs ne peuvent pas se connecter. Il ne peut être ni démarré ni arrêté pendant une analyse."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar servidor e Parar servidor controlam a transmissão. Enquanto o servidor estiver parado, iPads e navegadores não podem se conectar. Ele não pode ser iniciado nem parado durante uma análise."
+          }
+        }
+      }
+    },
+    "Start and stop": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar y detener"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrer et arrêter"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar e parar"
+          }
+        }
+      }
+    },
+    "Statistics": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estadísticas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistiques"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estatísticas"
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "État"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado"
+          }
+        }
+      }
+    },
+    "Status, address, PIN and port.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado, dirección, PIN y puerto."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "État, adresse, code PIN et port."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado, endereço, PIN e porta."
+          }
+        }
+      }
+    },
+    "Stay signed in for": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantener la sesión durante"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rester connecté pendant"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter a sessão por"
+          }
+        }
+      }
+    },
+    "Stop Server": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detener servidor"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêter le serveur"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parar servidor"
+          }
+        }
+      }
+    },
+    "Stop the server to change its port.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detén el servidor para cambiar su puerto."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêtez le serveur pour changer son port."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pare o servidor para alterar a porta."
+          }
+        }
+      }
+    },
+    "Stopped": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detenido"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrêté"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parado"
+          }
+        }
+      }
+    },
+    "Stopped “%@” after %@, %@ sent": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fin de “%@” tras %@, %@ enviados"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fin de « %@ » après %@, %@ envoyés"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fim de “%@” após %@, %@ enviados"
+          }
+        }
+      }
+    },
+    "Storage": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Almacenamiento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stockage"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Armazenamento"
+          }
+        }
+      }
+    },
+    "Streaming your library on port %@": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transmitiendo tu biblioteca en el puerto %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diffusion de votre bibliothèque sur le port %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transmitindo sua biblioteca na porta %@"
+          }
+        }
+      }
+    },
+    "The PIN may have changed or all sessions may have been revoked. Enter the PIN shown in Settings > Server, or set a new one in Security.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puede que el PIN haya cambiado o que se hayan revocado todas las sesiones. Introduce el PIN que aparece en Ajustes > Servidor o define uno nuevo en Seguridad."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le code PIN a peut-être changé ou toutes les sessions ont pu être révoquées. Saisissez le code PIN affiché dans Réglages > Serveur, ou définissez-en un nouveau dans Sécurité."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O PIN pode ter mudado ou todas as sessões podem ter sido revogadas. Digite o PIN mostrado em Ajustes > Servidor ou defina um novo em Segurança."
+          }
+        }
+      }
+    },
+    "The PIN to enter on the iPad or in the browser. When GridStream generated it, it is shown here; if you set your own PIN, it is not shown.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El PIN que hay que introducir en el iPad o en el navegador. Si lo generó GridStream, aparece aquí; si definiste tu propio PIN, no se muestra."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le code PIN à saisir sur l’iPad ou dans le navigateur. S’il a été généré par GridStream, il est affiché ici ; si vous avez défini votre propre code PIN, il n’est pas affiché."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O PIN a ser digitado no iPad ou no navegador. Se foi gerado pelo GridStream, ele aparece aqui; se você definiu seu próprio PIN, ele não é mostrado."
+          }
+        }
+      }
+    },
+    "The TCP port the server listens on, 8080 by default. Stop the server, type a port between 1024 and 65535, press Return, then start the server again.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El puerto TCP en el que escucha el servidor, 8080 de forma predeterminada. Detén el servidor, escribe un puerto entre 1024 y 65535, pulsa Retorno y vuelve a iniciar el servidor."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le port TCP sur lequel le serveur écoute, 8080 par défaut. Arrêtez le serveur, saisissez un port compris entre 1024 et 65535, appuyez sur Retour, puis redémarrez le serveur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A porta TCP em que o servidor escuta, 8080 por padrão. Pare o servidor, digite uma porta entre 1024 e 65535, pressione Return e inicie o servidor novamente."
+          }
+        }
+      }
+    },
+    "The address other devices on your network use to reach this Mac, made of its local network name and the server port. Click the copy button to put it on the clipboard.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La dirección que usan los demás dispositivos de tu red para llegar a este Mac, formada por su nombre en la red local y el puerto del servidor. Haz clic en el botón de copiar para ponerla en el portapapeles."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’adresse que les autres appareils de votre réseau utilisent pour joindre ce Mac, composée de son nom sur le réseau local et du port du serveur. Cliquez sur le bouton de copie pour la placer dans le presse-papiers."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O endereço que outros dispositivos da sua rede usam para acessar este Mac, formado pelo nome dele na rede local e pela porta do servidor. Clique no botão de copiar para colocá-lo na área de transferência."
+          }
+        }
+      }
+    },
+    "The database and scrub previews.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La base de datos y las vistas previas de desplazamiento."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La base de données et les aperçus de défilement."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O banco de dados e as prévias de navegação."
+          }
+        }
+      }
+    },
+    "The iPad doesn't find this Mac": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El iPad no encuentra este Mac"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’iPad ne trouve pas ce Mac"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O iPad não encontra este Mac"
+          }
+        }
+      }
+    },
+    "The iPad keeps asking for the PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El iPad pide el PIN una y otra vez"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’iPad redemande sans cesse le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O iPad continua pedindo o PIN"
+          }
+        }
+      }
+    },
+    "The last %lld entries, newest first. The log is cleared when GridStream quits.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las últimas %lld entradas, las más recientes primero. El registro se borra al salir de GridStream."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les %lld dernières entrées, les plus récentes en premier. Le journal est vidé à la fermeture de GridStream."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "As últimas %lld entradas, as mais recentes primeiro. O registro é apagado ao encerrar o GridStream."
+          }
+        }
+      }
+    },
+    "The server doesn't start": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El servidor no se inicia"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur ne démarre pas"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O servidor não inicia"
+          }
+        }
+      }
+    },
+    "The server is stopped.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El servidor está detenido."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur est arrêté."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O servidor está parado."
+          }
+        }
+      }
+    },
+    "The server is stopped. iPads and browsers cannot connect.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El servidor está detenido. Los iPad y los navegadores no pueden conectarse."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur est arrêté. Les iPad et les navigateurs ne peuvent pas se connecter."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O servidor está parado. iPads e navegadores não podem se conectar."
+          }
+        }
+      }
+    },
+    "The server starts by itself when GridStream opens. Its status is shown at the top of the sidebar and in the menu bar menu.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El servidor se inicia solo al abrir GridStream. Su estado aparece en la parte superior de la barra lateral y en el menú de la barra de menús."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le serveur démarre tout seul à l’ouverture de GridStream. Son état est affiché en haut de la barre latérale et dans le menu de la barre des menus."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O servidor é iniciado sozinho quando o GridStream é aberto. O estado dele aparece no topo da barra lateral e no menu da barra de menus."
+          }
+        }
+      }
+    },
+    "The switch on the right of a folder hides its videos from clients without deleting anything. Turn it back on to find its videos again with their tags, ratings and other data.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El interruptor a la derecha de una carpeta oculta sus vídeos a los clientes sin eliminar nada. Vuelve a activarlo para recuperar sus vídeos con sus etiquetas, valoraciones y otros datos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’interrupteur à droite d’un dossier masque ses vidéos aux clients sans rien supprimer. Réactivez-le pour retrouver ses vidéos avec leurs tags, notes et autres données."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A chave à direita de uma pasta oculta os vídeos dela dos clientes sem apagar nada. Ative-a novamente para recuperar os vídeos com suas etiquetas, classificações e outros dados."
+          }
+        }
+      }
+    },
+    "The top of the menu shows whether the server is running and on which port, how many videos are in the catalog, and the PIN when GridStream generated it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La parte superior del menú indica si el servidor está en ejecución y en qué puerto, cuántos vídeos hay en el catálogo y el PIN si lo generó GridStream."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Le haut du menu indique si le serveur est en marche et sur quel port, combien de vidéos compte le catalogue, et le code PIN s’il a été généré par GridStream."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O topo do menu mostra se o servidor está em execução e em qual porta, quantos vídeos há no catálogo e o PIN, quando gerado pelo GridStream."
+          }
+        }
+      }
+    },
+    "This Mac": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este Mac"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce Mac"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este Mac"
+          }
+        }
+      }
+    },
+    "This build of GridStream does not include the web interface. Install Node.js and rebuild the app, or run scripts/build-web.sh before building.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta compilación de GridStream no incluye la interfaz web. Instala Node.js y vuelve a compilar la app, o ejecuta scripts/build-web.sh antes de compilar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette version de GridStream n’inclut pas l’interface web. Installez Node.js et recompilez l’app, ou exécutez scripts/build-web.sh avant la compilation."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta compilação do GridStream não inclui a interface web. Instale o Node.js e compile o app novamente, ou execute scripts/build-web.sh antes de compilar."
+          }
+        }
+      }
+    },
+    "This folder contains the source folder “%@”. Remove that folder first, or add a folder that does not overlap it.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta carpeta contiene la carpeta de origen “%@”. Quita primero esa carpeta o añade una carpeta que no se solape con ella."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce dossier contient le dossier source « %@ ». Supprimez d’abord ce dossier, ou ajoutez un dossier qui ne le chevauche pas."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta pasta contém a pasta de origem “%@”. Remova essa pasta primeiro ou adicione uma pasta que não se sobreponha a ela."
+          }
+        }
+      }
+    },
+    "This folder is already a source folder.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta carpeta ya es una carpeta de origen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce dossier est déjà un dossier source."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta pasta já é uma pasta de origem."
+          }
+        }
+      }
+    },
+    "This folder is inside the source folder “%@”, which already includes its videos.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta carpeta está dentro de la carpeta de origen “%@”, que ya incluye sus vídeos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce dossier se trouve dans le dossier source « %@ », qui inclut déjà ses vidéos."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta pasta está dentro da pasta de origem “%@”, que já inclui os vídeos dela."
+          }
+        }
+      }
+    },
+    "This will permanently delete all %lld cached scrub frames. This action cannot be undone.": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "This will permanently delete %lld cached scrub frame. This action cannot be undone."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "This will permanently delete all %lld cached scrub frames. This action cannot be undone."
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Se eliminará de forma permanente %lld fotograma de desplazamiento. Esta acción no se puede deshacer."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Se eliminarán de forma permanente los %lld fotogramas de desplazamiento. Esta acción no se puede deshacer."
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld image de défilement sera définitivement supprimée. Cette action est irréversible."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Les %lld images de défilement seront définitivement supprimées. Cette action est irréversible."
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld quadro de navegação será apagado permanentemente. Esta ação não pode ser desfeita."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Todos os %lld quadros de navegação serão apagados permanentemente. Esta ação não pode ser desfeita."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "This will permanently delete all videos, thumbnails, tags, and ratings from the database. This action cannot be undone.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se eliminarán de forma permanente todos los vídeos, miniaturas, etiquetas y valoraciones de la base de datos. Esta acción no se puede deshacer."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toutes les vidéos, vignettes, tags et notes seront définitivement supprimés de la base de données. Cette action est irréversible."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todos os vídeos, miniaturas, etiquetas e classificações serão apagados permanentemente do banco de dados. Esta ação não pode ser desfeita."
+          }
+        }
+      }
+    },
+    "Throughput": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velocidad"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Débit"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velocidade"
+          }
+        }
+      }
+    },
+    "Too many wrong PINs, sign-in paused": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Demasiados PIN incorrectos, inicio de sesión en pausa"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trop de codes PIN erronés, connexion suspendue"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Muitos PINs incorretos, início de sessão pausado"
+          }
+        }
+      }
+    },
+    "Troubleshooting": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solución de problemas"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dépannage"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solução de problemas"
+          }
+        }
+      }
+    },
+    "Turn Off": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactiver"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desativar"
+          }
+        }
+      }
+    },
+    "Turn On": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar"
+          }
+        }
+      }
+    },
+    "Turn off to hide its videos from clients. Their tags, ratings and other data are kept.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactívala para ocultar sus vídeos a los clientes. Sus etiquetas, valoraciones y otros datos se conservan."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactivez-le pour masquer ses vidéos aux clients. Leurs tags, notes et autres données sont conservés."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desative para ocultar os vídeos dela dos clientes. As etiquetas, classificações e outros dados são mantidos."
+          }
+        }
+      }
+    },
+    "Turn on": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar"
+          }
+        }
+      }
+    },
+    "Turning a folder off": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivar una carpeta"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Désactiver un dossier"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desativar uma pasta"
+          }
+        }
+      }
+    },
+    "Type a PIN of 6 to 12 digits twice and click Save PIN. Changing the PIN signs out every device, which then asks for the new PIN.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escribe dos veces un PIN de 6 a 12 dígitos y haz clic en Guardar PIN. Cambiar el PIN cierra la sesión en todos los dispositivos, que piden entonces el PIN nuevo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saisissez deux fois un code PIN de 6 à 12 chiffres et cliquez sur Enregistrer le code PIN. Changer le code PIN déconnecte tous les appareils, qui demandent alors le nouveau code."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Digite duas vezes um PIN de 6 a 12 dígitos e clique em Salvar PIN. Alterar o PIN desconecta todos os dispositivos, que passam a pedir o novo PIN."
+          }
+        }
+      }
+    },
+    "Unable to save PIN.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se ha podido guardar el PIN."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Impossible d’enregistrer le code PIN."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível salvar o PIN."
+          }
+        }
+      }
+    },
+    "Unavailable folders": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carpetas no disponibles"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dossiers indisponibles"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pastas indisponíveis"
+          }
+        }
+      }
+    },
+    "Unavailable — its videos are kept until the folder is reachable again": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No disponible: sus vídeos se conservan hasta que la carpeta vuelva a estar accesible"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indisponible — ses vidéos sont conservées jusqu’à ce que le dossier soit de nouveau accessible"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indisponível — os vídeos são mantidos até que a pasta fique acessível novamente"
+          }
+        }
+      }
+    },
+    "Update PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mettre à jour le code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atualizar PIN"
+          }
+        }
+      }
+    },
+    "Use a single PIN to unlock web and iPad clients. Changing the PIN revokes existing sessions.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usa un único PIN para desbloquear los clientes web y de iPad. Cambiar el PIN revoca las sesiones existentes."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un seul code PIN déverrouille les clients web et iPad. Changer le code PIN révoque les sessions existantes."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use um único PIN para desbloquear os clientes web e de iPad. Alterar o PIN revoga as sessões existentes."
+          }
+        }
+      }
+    },
+    "Using GridStream from a browser.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar GridStream desde un navegador."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utiliser GridStream depuis un navigateur."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar o GridStream em um navegador."
+          }
+        }
+      }
+    },
+    "Videos": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vidéos"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos"
+          }
+        }
+      }
+    },
+    "Videos Processed": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos procesados"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vidéos traitées"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos processados"
+          }
+        }
+      }
+    },
+    "Videos Served": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos servidos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vidéos servies"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos servidos"
+          }
+        }
+      }
+    },
+    "Videos is the number of videos in the catalog, Folders the number of folders turned on, and PIN tells whether clients need a PIN to connect.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos es el número de vídeos del catálogo, Carpetas el número de carpetas activadas y PIN indica si los clientes necesitan un PIN para conectarse."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vidéos indique le nombre de vidéos du catalogue, Dossiers le nombre de dossiers activés, et Code PIN si les clients ont besoin d’un code PIN pour se connecter."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vídeos é o número de vídeos no catálogo, Pastas o número de pastas ativadas e PIN indica se os clientes precisam de um PIN para se conectar."
+          }
+        }
+      }
+    },
+    "Videos whose files are no longer found on disk are kept, in case the file comes back. Purge… deletes them and all their data for good.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los vídeos cuyos archivos ya no están en el disco se conservan por si el archivo vuelve. Purgar… los elimina definitivamente con todos sus datos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les vidéos dont les fichiers sont introuvables sur le disque sont conservées, au cas où le fichier reviendrait. Purger… les supprime définitivement avec toutes leurs données."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Os vídeos cujos arquivos não estão mais no disco são mantidos, caso o arquivo volte. Limpar… apaga esses vídeos e todos os dados deles para sempre."
+          }
+        }
+      }
+    },
+    "Waiting…": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esperando…"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En attente…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aguardando…"
+          }
+        }
+      }
+    },
+    "Web": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web"
+          }
+        }
+      }
+    },
+    "Web Browser": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegador web"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigateur web"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navegador"
+          }
+        }
+      }
+    },
+    "Web Interface": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interfaz web"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interface web"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interface web"
+          }
+        }
+      }
+    },
+    "What GridStream Server does": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué hace GridStream Server"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ce que fait GridStream Server"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O que o GridStream Server faz"
+          }
+        }
+      }
+    },
+    "When a PIN is required, the browser asks for it once and remembers it for the session duration set in Security.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si se requiere un PIN, el navegador lo pide una vez y lo recuerda durante la duración de sesión definida en Seguridad."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lorsqu’un code PIN est exigé, le navigateur le demande une fois et s’en souvient pendant la durée de session définie dans Sécurité."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando um PIN é exigido, o navegador o pede uma vez e o lembra pela duração da sessão definida em Segurança."
+          }
+        }
+      }
+    },
+    "When on, opening the server address in a browser shows the GridStream web app. It uses the same port as the iPad app, and the change applies immediately.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Si está activado, al abrir la dirección del servidor en un navegador aparece la app web de GridStream. Usa el mismo puerto que la app para iPad y el cambio se aplica de inmediato."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lorsque cette option est activée, ouvrir l’adresse du serveur dans un navigateur affiche l’app web GridStream. Elle utilise le même port que l’app iPad, et le changement s’applique immédiatement."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando ativado, abrir o endereço do servidor em um navegador mostra o app web do GridStream. Ele usa a mesma porta do app para iPad, e a mudança vale imediatamente."
+          }
+        }
+      }
+    },
+    "When something doesn't connect or show up.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando algo no se conecta o no aparece."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quand quelque chose ne se connecte pas ou n’apparaît pas."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quando algo não se conecta ou não aparece."
+          }
+        }
+      }
+    },
+    "Where GridStream keeps its database, by default in Application Support. Show in Finder reveals the database file.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Donde GridStream guarda su base de datos, de forma predeterminada en Application Support. Mostrar en el Finder muestra el archivo de la base de datos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’emplacement de la base de données de GridStream, par défaut dans Application Support. Afficher dans le Finder montre le fichier de la base."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onde o GridStream guarda o banco de dados, por padrão em Application Support. Mostrar no Finder mostra o arquivo do banco de dados."
+          }
+        }
+      }
+    },
+    "Where GridStream keeps its database: tags, ratings, lists, annotations, captures and scrub previews. Your video files are never moved.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Donde GridStream guarda su base de datos: etiquetas, valoraciones, listas, anotaciones, capturas y vistas previas de desplazamiento. Tus archivos de vídeo nunca se mueven."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L’emplacement de la base de données de GridStream : tags, notes, listes, annotations, captures et aperçus de défilement. Vos fichiers vidéo ne sont jamais déplacés."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onde o GridStream guarda o banco de dados: etiquetas, classificações, listas, anotações, capturas e prévias de navegação. Seus arquivos de vídeo nunca são movidos."
+          }
+        }
+      }
+    },
+    "While the server runs, the menu bar menu shows how many devices are connected and what they are playing; choose that line to open this pane. The menu bar icon changes while a video is playing.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mientras el servidor está en ejecución, el menú de la barra de menús muestra cuántos dispositivos están conectados y qué reproducen; elige esa línea para abrir este panel. El icono de la barra de menús cambia mientras se reproduce un vídeo."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quand le serveur est en marche, le menu de la barre des menus indique combien d’appareils sont connectés et ce qu’ils lisent ; choisissez cette ligne pour ouvrir ce panneau. L’icône de la barre des menus change pendant la lecture d’une vidéo."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enquanto o servidor está em execução, o menu da barra de menus mostra quantos dispositivos estão conectados e o que estão reproduzindo; escolha essa linha para abrir este painel. O ícone da barra de menus muda enquanto um vídeo é reproduzido."
+          }
+        }
+      }
+    },
+    "Who can reach your library.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quién puede acceder a tu biblioteca."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qui peut accéder à votre bibliothèque."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quem pode acessar sua biblioteca."
+          }
+        }
+      }
+    },
+    "With a PIN, only iPads and browsers that know it can browse, stream or change your library. Without one, anyone on your network can. Leave it on unless your network is entirely yours.": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con un PIN, solo los iPad y navegadores que lo conocen pueden explorar, reproducir o cambiar tu biblioteca. Sin él, puede hacerlo cualquiera en tu red. Déjalo activado salvo que la red sea solo tuya."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avec un code PIN, seuls les iPad et navigateurs qui le connaissent peuvent parcourir, lire ou modifier votre bibliothèque. Sans code PIN, n’importe qui sur votre réseau le peut. Laissez-le activé, sauf si votre réseau n’est utilisé que par vous."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Com um PIN, somente iPads e navegadores que o conhecem podem navegar, reproduzir ou alterar sua biblioteca. Sem ele, qualquer pessoa na sua rede pode. Deixe-o ativado, a menos que a rede seja só sua."
+          }
+        }
+      }
+    },
+    "Workers": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procesos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tâches"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processos"
+          }
+        }
+      }
+    },
+    "Wrong PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN incorrecto"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code PIN erroné"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PIN incorreto"
+          }
+        }
+      }
+    },
+    "Your own PIN": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu propio PIN"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Votre propre code PIN"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seu próprio PIN"
+          }
+        }
+      }
+    },
+    "days": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "días"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jours"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dias"
+          }
+        }
+      }
+    },
+    "iPad": {
+      "shouldTranslate": false
+    },
+    "· %lld remaining": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· %lld remaining"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· %lld remaining"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· queda %lld"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· quedan %lld"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· %lld restante"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· %lld restantes"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· resta %lld"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "· restam %lld"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

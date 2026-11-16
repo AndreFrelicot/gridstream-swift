@@ -1,0 +1,13 @@
+// Shared build settings for the iPad app.
+// Personal values (signing team, bundle identifier prefix) come from the
+// macOS project's git-ignored Config/Local.xcconfig, so one file configures
+// both apps. Copy gridstream-macos/Config/Local.xcconfig.example.
+
+GRIDSTREAM_BUNDLE_ID_PREFIX = com.example
+DEVELOPMENT_TEAM =
+
+#include? "../../gridstream-macos/Config/Local.xcconfig"
+
+// Ad hoc simulator builds need an app identity for Keychain access.
+// Device signing gets its entitlements from the provisioning profile.
+CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*] = Config/Simulator.entitlements

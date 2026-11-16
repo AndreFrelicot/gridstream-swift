@@ -1,0 +1,230 @@
+{
+  "conditions": [
+    {
+      "criteriaType": {
+        "type": "tagsInclude",
+        "tagIds": [
+          "3C9D1E2F-5A6B-4C7D-8E9F-0A1B2C3D4E5F",
+          "7B8C9D0E-1F2A-4B3C-9D4E-5F6A7B8C9D0E"
+        ],
+        "tagRatings": [
+          {
+            "tagId": "3C9D1E2F-5A6B-4C7D-8E9F-0A1B2C3D4E5F",
+            "minRating": 6,
+            "maxRating": 10
+          }
+        ]
+      },
+      "id": "C0000000-0000-4000-8000-000000000001",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "tagsExclude",
+        "tagIds": [
+          "7B8C9D0E-1F2A-4B3C-9D4E-5F6A7B8C9D0E"
+        ]
+      },
+      "id": "C0000000-0000-4000-8000-000000000002",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "ratingMin",
+        "value": 6
+      },
+      "id": "C0000000-0000-4000-8000-000000000003",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "ratingMax",
+        "value": 9
+      },
+      "id": "C0000000-0000-4000-8000-000000000004",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "sourceDirectory",
+        "id": "0A1B2C3D-4E5F-4061-8273-94A5B6C7D8E9"
+      },
+      "id": "C0000000-0000-4000-8000-000000000005",
+      "logicOperator": "OR"
+    },
+    {
+      "criteriaType": {
+        "type": "fileSizeMin",
+        "megabytes": 10.5
+      },
+      "id": "C0000000-0000-4000-8000-000000000006",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "fileSizeMax",
+        "megabytes": 4096
+      },
+      "id": "C0000000-0000-4000-8000-000000000007",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "filenameContains",
+        "text": "Take"
+      },
+      "id": "C0000000-0000-4000-8000-000000000008",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "filenameStartsWith",
+        "text": "Rehearsal"
+      },
+      "id": "C0000000-0000-4000-8000-000000000009",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "filenameEndsWith",
+        "text": ".mp4"
+      },
+      "id": "C0000000-0000-4000-8000-000000000010",
+      "logicOperator": "OR"
+    },
+    {
+      "criteriaType": {
+        "type": "filenameRegex",
+        "pattern": "Take \\d+"
+      },
+      "id": "C0000000-0000-4000-8000-000000000011",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "dateAddedAfter",
+        "date": "2026-01-01T00:00:00Z"
+      },
+      "id": "C0000000-0000-4000-8000-000000000012",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "dateAddedBefore",
+        "date": "2026-12-31T23:59:59Z"
+      },
+      "id": "C0000000-0000-4000-8000-000000000013",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "dateModifiedAfter",
+        "date": "2026-06-01T00:00:00Z"
+      },
+      "id": "C0000000-0000-4000-8000-000000000014",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "dateModifiedBefore",
+        "date": "2026-11-01T00:00:00Z"
+      },
+      "id": "C0000000-0000-4000-8000-000000000015",
+      "logicOperator": "OR"
+    },
+    {
+      "criteriaType": {
+        "type": "playCountMin",
+        "value": 1
+      },
+      "id": "C0000000-0000-4000-8000-000000000016",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "playCountMax",
+        "value": 20
+      },
+      "id": "C0000000-0000-4000-8000-000000000017",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "hasAnnotations",
+        "value": true
+      },
+      "id": "C0000000-0000-4000-8000-000000000018",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "annotationCountMin",
+        "value": 1
+      },
+      "id": "C0000000-0000-4000-8000-000000000019",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "annotationCountMax",
+        "value": 50
+      },
+      "id": "C0000000-0000-4000-8000-000000000020",
+      "logicOperator": "OR"
+    },
+    {
+      "criteriaType": {
+        "type": "hasTextAnnotations",
+        "value": false
+      },
+      "id": "C0000000-0000-4000-8000-000000000021",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "annotationTextSearch",
+        "text": "cue"
+      },
+      "id": "C0000000-0000-4000-8000-000000000022",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "hasTimeRanges",
+        "value": true
+      },
+      "id": "C0000000-0000-4000-8000-000000000023",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "simpleListInclude",
+        "simpleListId": "1D2C3B4A-5968-4776-8594-A3B2C1D0E9F8"
+      },
+      "id": "C0000000-0000-4000-8000-000000000024",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "smartListInclude",
+        "smartListId": "C1D2E3F4-A5B6-4C7D-8E9F-A0B1C2D3E4F5"
+      },
+      "id": "C0000000-0000-4000-8000-000000000025",
+      "logicOperator": "OR"
+    },
+    {
+      "criteriaType": {
+        "type": "unplayed"
+      },
+      "id": "C0000000-0000-4000-8000-000000000026",
+      "logicOperator": "AND"
+    },
+    {
+      "criteriaType": {
+        "type": "unrated"
+      },
+      "id": "C0000000-0000-4000-8000-000000000027",
+      "logicOperator": "AND"
+    }
+  ]
+}

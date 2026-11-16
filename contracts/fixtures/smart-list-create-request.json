@@ -1,0 +1,4 @@
+{
+  "name": "Best unplayed",
+  "criteria": "{\"conditions\":[{\"criteriaType\":{\"type\":\"ratingMin\",\"value\":7},\"id\":\"C0000000-0000-4000-8000-000000000001\",\"logicOperator\":\"AND\"},{\"criteriaType\":{\"type\":\"unplayed\"},\"id\":\"C0000000-0000-4000-8000-000000000002\",\"logicOperator\":\"AND\"}]}"
+}

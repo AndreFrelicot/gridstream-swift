@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSUIElement</key>
+	<false/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_gridstream._tcp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>GridStream needs local network access to allow iPad devices to discover and stream videos from this server.</string>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+{
+  "id": "9E8D7C6B-5A49-4382-9170-6F5E4D3C2B1A",
+  "name": "Best unplayed",
+  "criteria": "{\"conditions\":[{\"criteriaType\":{\"type\":\"ratingMin\",\"value\":7},\"id\":\"C0000000-0000-4000-8000-000000000001\",\"logicOperator\":\"AND\"},{\"criteriaType\":{\"type\":\"unplayed\"},\"id\":\"C0000000-0000-4000-8000-000000000002\",\"logicOperator\":\"AND\"}]}",
+  "createdAt": "2026-10-01T09:00:00Z",
+  "updatedAt": "2026-10-20T17:45:00Z"
+}

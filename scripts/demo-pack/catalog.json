@@ -1,0 +1,50 @@
+{
+  "clips": {
+    "tos-1": { "filename": "Tears of Steel - Bridge.mp4", "rating": 7, "playCount": 4, "tags": ["live-action", "dialogue", "favorite"] },
+    "tos-2": { "filename": "Tears of Steel - Dome Projection.mp4", "rating": 9, "playCount": 6, "tags": ["live-action", { "tag": "vfx", "rating": 9 }, "favorite"] },
+    "tos-3": { "filename": "Tears of Steel - Memory Lab.mp4", "rating": 6, "playCount": 2, "tags": ["live-action", "dialogue", { "tag": "vfx", "rating": 6 }] },
+    "tos-4": { "filename": "Tears of Steel - Robot Battle.mp4", "rating": 8, "playCount": 3, "tags": ["live-action", { "tag": "vfx", "rating": 8 }, { "tag": "action", "rating": 9 }] },
+    "sintel-1": { "filename": "Sintel - Snow Pass.mp4", "rating": 8, "playCount": 5, "tags": ["animation", "snow", { "tag": "action", "rating": 6 }] },
+    "sintel-2": { "filename": "Sintel - Rooftop Flight.mp4", "rating": 10, "playCount": 7, "tags": ["animation", "favorite"] },
+    "sintel-3": { "filename": "Sintel - Shaman Hut.mp4", "rating": 0, "playCount": 0, "tags": ["animation", "snow", "low-light"] },
+    "sintel-4": { "filename": "Sintel - Dragon Cave.mp4", "rating": 7, "playCount": 1, "tags": ["animation", "low-light", { "tag": "action", "rating": 7 }] },
+    "ed-1": { "filename": "Elephants Dream - Machine Room.mp4", "rating": 6, "playCount": 2, "tags": ["animation", "dialogue"] },
+    "ed-2": { "filename": "Elephants Dream - Red Room.mp4", "rating": 0, "playCount": 0, "tags": ["animation", "low-light"] },
+    "ed-3": { "filename": "Elephants Dream - Ghost Platform.mp4", "rating": 5, "playCount": 0, "tags": ["animation", "low-light"] },
+    "ed-4": { "filename": "Elephants Dream - Cable Bridge.mp4", "rating": 7, "playCount": 1, "tags": ["animation", { "tag": "action", "rating": 5 }] }
+  },
+  "tags": [
+    { "key": "live-action", "name": "Live action", "color": "#3B82F6" },
+    { "key": "animation", "name": "Animation", "color": "#8B5CF6" },
+    { "key": "vfx", "name": "VFX", "color": "#06B6D4", "ratingEnabled": true, "description": "Rate the visual effects of the shot" },
+    { "key": "action", "name": "Action", "color": "#EF4444", "ratingEnabled": true, "description": "Rate how intense the action is" },
+    { "key": "dialogue", "name": "Dialogue", "color": "#F59E0B" },
+    { "key": "snow", "name": "Snow", "color": "#10B981" },
+    { "key": "low-light", "name": "Low light", "color": "#A855F7" },
+    { "key": "favorite", "name": "Favorite", "color": "#EC4899" }
+  ],
+  "simpleLists": [
+    { "key": "client-review", "name": "Client review", "clips": ["tos-2", "sintel-2", "tos-4", "ed-1"] },
+    { "key": "snow-scenes", "name": "Snow scenes", "clips": ["sintel-1", "sintel-3"] }
+  ],
+  "smartLists": [
+    { "key": "top-rated", "name": "Top rated", "conditions": [{ "type": "ratingMin", "value": 8 }] },
+    { "key": "strong-action", "name": "Strong action", "conditions": [{ "type": "tagsInclude", "tags": ["action"], "tagRatings": { "action": { "min": 7 } } }] },
+    { "key": "unwatched", "name": "Not watched yet", "conditions": [{ "type": "unplayed" }] },
+    { "key": "with-notes", "name": "With notes", "conditions": [{ "type": "hasTextAnnotations", "value": true }] },
+    { "key": "animated-dark", "name": "Animation in low light", "conditions": [{ "type": "tagsInclude", "tags": ["animation", "low-light"] }] }
+  ],
+  "annotations": [
+    { "clip": "tos-2", "time": 8.0, "text": "Check the dome edge for flicker", "strokes": [{ "circle": [0.5, 0.42, 0.18], "color": "#EF4444" }] },
+    { "clip": "tos-2", "time": 21.0, "text": "Great reveal, keep this take" },
+    { "clip": "tos-4", "time": 14.0, "text": "Robot arm clips the frame", "strokes": [{ "circle": [0.68, 0.5, 0.14], "color": "#F59E0B" }] },
+    { "clip": "sintel-2", "time": 18.0, "text": "Hold on the dragon a bit longer", "strokes": [{ "points": [[0.2, 0.75], [0.35, 0.62], [0.5, 0.52], [0.65, 0.44]], "color": "#22C55E", "width": 8 }] },
+    { "clip": "ed-1", "time": 6.0, "text": "Color: cooler highlights here" }
+  ],
+  "timeRanges": [
+    { "clip": "tos-2", "start": 4.0, "end": 16.0, "label": "Reveal" },
+    { "clip": "tos-4", "start": 10.0, "end": 22.0, "label": "Hero shot" },
+    { "clip": "sintel-2", "start": 12.0, "end": 26.0, "label": "Takeoff" },
+    { "clip": "sintel-1", "start": 0.0, "end": 10.0, "label": "Wide opening" }
+  ]
+}
